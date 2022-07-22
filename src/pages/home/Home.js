@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import boyimg from "../../Assets/Notesboy.jpg";
 import "./home.css";
 
@@ -13,7 +13,7 @@ function Home() {
                         <h3>Take Notes With NoteBook <br /> A Note Taking app</h3>
                         <p>Manage your daily tasks and workflow in a modern way and boost your efficiency without any efforts.</p>
                     </div>
-                    {/* <Link className='header_btn' to="/">Start Now</Link> */}
+                    <Link className='header_btn' to="/">Start Now</Link>
                 </div>
                 <div className="hero-image">
                     <img src={boyimg} alt="hero" />
