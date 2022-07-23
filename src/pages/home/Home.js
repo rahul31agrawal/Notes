@@ -11,7 +11,7 @@ function Home() {
                     <h1 className='header_title'><span className='black-text'>Note</span>Book</h1>
                     <div className='header_text'>
                         <h3>Take Notes With NoteBook <br /> A Note Taking app</h3>
-                        <p>Manage your daily tasks and workflow in a modern way and boost your efficiency without any efforts.</p>
+                        <p>Increase your productivity with the help of Notebook, Just write what ever you need to to achieve.</p>
                     </div>
                     <Link className='header_btn' to="/">Start Now</Link>
                 </div>
