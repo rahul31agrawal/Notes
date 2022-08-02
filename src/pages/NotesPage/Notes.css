@@ -1,0 +1,71 @@
+.notesForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.notesForm > input{
+padding: 10px;
+margin-bottom: 15px;
+}
+
+.notesForm > textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.createNotes{
+    margin-left: 35rem;
+}
+
+.cardCollection{
+   display: flex; 
+   flex: 1 1 300px;
+   gap: 15px;
+   width: 90%;
+   margin: 25px auto 0;
+   flex-wrap: wrap;
+}
+
+.notesBorder{
+    border: .1rem solid black;
+    margin: 4rem;
+}
+
+.timeClr{
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+}
+
+.btnRed{
+    border-radius: 1rem;
+    background-color: #FFCCCB;
+    height: 1rem;
+    cursor: pointer;
+    
+    
+}
+
+.btnBlue{
+    border-radius: 1rem;
+    background-color: #ADD8E6;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.btnGreen{
+    border-radius: 1rem;
+    background-color: #90ee90;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.btnYellow{
+    border-radius: 1rem;
+    background-color: #FFFF00;
+    height: 1rem;
+    cursor: pointer;
+}
+

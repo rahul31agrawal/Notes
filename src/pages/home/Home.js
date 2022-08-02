@@ -13,7 +13,7 @@ function Home() {
                         <h3>Take Notes With NoteBook <br /> A Note Taking app</h3>
                         <p>Increase your productivity with the help of Notebook, Just write what ever you need to to achieve.</p>
                     </div>
-                    <Link className='header_btn' to="/">Start Now</Link>
+                    <Link className='header_btn' to="/notes">Start Now</Link>
                 </div>
                 <div className="hero-image">
                     <img src={boyimg} alt="hero" />
